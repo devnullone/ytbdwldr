@@ -65,7 +65,6 @@ with open(os.getcwd() + '/test.txt','r') as test_file:
         # filters out all the files with "mp4" extension
         mp4files = yt.streams.filter(file_extension='mp4')
         try:
-
             # Split video and audio
             yt.streams.filter(res=default_res, progressive=False).first().download(filename=filename)
 
