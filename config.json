@@ -1,0 +1,11 @@
+{
+  "default_res": "360p",
+  "second_res": "140p",
+  "video_size_allowed": "10 MB",
+  "retries": "4",
+  "socks5": "True",
+  "socks5_list": {
+    "127.0.0.1": "8900",
+    "182.168.1.2": "3000"
+  }
+}
